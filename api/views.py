@@ -9,7 +9,6 @@ from .integrations.github import GithubApi
 
 from django.conf.urls import url
 
-schema_view = get_swagger_view(title='Pastebin API')
 
 class OrganizationViewSet(ModelViewSet):
 
